@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file based on the
 ### Backward Compatibility Breaks
 * Removed `\Elastica\Query\GeohashCell` query, use `\Elastica\Query\GeoBoundingBox` instead [#1672](https://github.com/ruflin/Elastica/pull/1672).
 * Deprecated usage of `\Elastica\Type` class, `\Elastica\Index` class must be used instead [#1666](https://github.com/ruflin/Elastica/pull/1666)
+* Removed `\Elastica\Type` class, `\Elastica\Index` class must be used instead [#1666](https://github.com/ruflin/Elastica/pull/1666)
 * Forced index names to string in `\Elastica\Index::__construct()` [#1666](https://github.com/ruflin/Elastica/pull/1666)
 * Removed Type query `\Elastica\Query\Type` [#1666](https://github.com/ruflin/Elastica/pull/1666)
 * Dropped support for PHP 7.0
