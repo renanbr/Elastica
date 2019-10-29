@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file based on the
 * Changed all factory methods to make use of [late static bindings](http://docs.php.net/manual/en/language.oop5.late-static-bindings.php) by using `static` instead of `self` keyword. This is to increase extendability for classes with factory methods.
 
 ### Backward Compatibility Breaks
+* `\Elastica\Document` expects a string as ID, not an int [#1672](https://github.com/ruflin/Elastica/pull/1672).
 * Removed `\Elastica\Query\GeohashCell` query, use `\Elastica\Query\GeoBoundingBox` instead [#1672](https://github.com/ruflin/Elastica/pull/1672).
 * Deprecated usage of `\Elastica\Type` class, `\Elastica\Index` class must be used instead [#1666](https://github.com/ruflin/Elastica/pull/1666)
 * Removed `\Elastica\Type` class, `\Elastica\Index` class must be used instead [#1666](https://github.com/ruflin/Elastica/pull/1666)
